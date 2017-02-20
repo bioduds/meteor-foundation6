@@ -1,6 +1,6 @@
 Package.describe({
   name: 'bioduds:foundation6',
-  version: '1.0.0',
+  version: '1.0.1',
   // Brief, one-line summary of the package.
   summary: 'Foundation 6 Complete Version 6.3.0',
   // URL to the Git repository containing the source code for this package.
@@ -15,11 +15,11 @@ Package.onUse(function(api) {
   api.use('ecmascript');
   api.use('jquery', ['client']);
   api.addFiles([
-    'js/app.js',
     'js/vendor/foundation.js',
     'js/vendor/foundation.min.js',
     'js/vendor/jquery.js',
     'js/vendor/what-input.js',
+    'js/app.js',
     'css/app.css',
     'css/foundation.css',
     'css/foundation.min.css',
